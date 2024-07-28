@@ -1,0 +1,200 @@
+.navbar-custom {
+  /* Custom navbar styles */
+  
+}
+
+.navbar-nav .nav-link {
+  color: #666;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #666;
+  text-decoration: none;
+}
+
+.navbar-nav .dropdown-menu {
+  background-color: white;
+  border: 1px solid #666;
+}
+
+.navbar-nav .dropdown-item {
+  color: black;
+}
+
+.navbar-nav .dropdown-item:hover {
+  background-color: #f8f9fa;
+}
+
+.btn {
+  border-color: #666;
+  border: 0.063rem solid;
+  color: #666;
+  margin-left: 0.5rem;
+}
+
+.btn:hover {
+  /* background: rgb(146, 34, 34, 0.5); */
+  color: #666;
+}
+
+.toggle-button {
+  color: #666;
+  background-color:none;
+   border:none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  height: 100px;
+}
+
+/* Gradient Text Animation */
+@keyframes gradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 0%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+.gradient-text {
+  font-weight: bold;
+  padding: 20px;
+  background: linear-gradient(45deg, #ff6b6b, #f06595, #f6c90f, #32a861, #325fa8, #800715, #871158);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 3s ease infinite;
+}
+
+/* Small Yellow Button */
+.small-yellow-button {
+  background-color: orange;
+  border-radius: 8px;
+  border-color: orange;
+  color: white;
+  /* padding: 5px 10px; */
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+  height: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-yellow-button:hover {
+  background-color: #f0e000;
+}
+.navbar-custom .nav-link,
+.navbar-custom .nav-dropdown {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  transition: color 0.2s, text-shadow 0.3s;
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link:focus,
+.navbar-custom .nav-dropdown:hover,
+.navbar-custom .nav-dropdown:focus {
+  /* color: violet; */
+  text-shadow: 0 0 15px rgb(122, 5, 122);
+  
+
+  /* ff   extra part */
+  /* Ensure the color for the hamburger icon */
+}
+.navbar-toggler {
+  border-color: #666;
+}
+
+/* .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23666' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/ %3E%3C/svg%3E");
+} */
+
+/* Hover and active effects for navbar links */
+
+.navbar-custom .nav-dropdown {
+  color: #666;
+  font-weight: bold;
+  font-size: 20px;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+.subnav{
+  margin-left:60px;
+}
+
+.signbtn{
+  margin:auto;
+  padding: 17px;
+  height:auto;
+  width:300px;
+
+}
+
+.blogs{
+  margin:auto;
+  margin-left: 20px;
+}
+
+.logo{
+  position: relative;
+  left:60px;
+}
+
+/* Media queries to handle mobile view */
+@media (max-width: 767px) {
+  .logo{
+    position: relative;
+    left:10px;
+  }
+  .subnav{
+    margin-left: 0px;
+    padding: 5px;
+  }
+
+  .blogs{
+    margin:0;
+  }
+
+  .signbtn{
+    margin:0;
+    padding:0;
+  }
+
+  .gradient-text{
+    padding: 5px;
+  }
+  .navbar-toggler {
+    border-color: #666;
+  }
+
+  .toggle-button{
+    position: relative;
+    right: 50px;
+    background-color: #325fa8;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("https://res.cloudinary.com/dxyzgyveu/image/upload/v1722158411/9104209_hamburger_menu_navigation_navbar_icon_njeyhl.png");
+  }
+  
+}
+
+
+
+
+
+
+
+
+
