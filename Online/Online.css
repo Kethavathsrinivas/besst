@@ -1,0 +1,25 @@
+.left_grid {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  column-gap: 30px;
+}
+
+p {
+  font-size: 17px;
+}
+
+.ser_heading {
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+a {
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .left_grid {
+    grid-template-columns: 100%;
+  }
+}
